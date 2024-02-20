@@ -1,0 +1,19 @@
+Head Part
+    > NavBar > Sticky
+    > Name
+        > Occupation
+        > Photo
+
+Content Part
+    > About Me
+        > Me
+        > My Education
+        > My Skills
+    > Projects
+    > Contact
+
+Footer
+
+content takes 50%
+headtakes 35%
+footer takes 15%

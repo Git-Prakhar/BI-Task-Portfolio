@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <div id="navbar">
+            <ul>
+                <li><a href="#sec1" class="navbuttons active">Home</a></li>
+                <li><a href="#sec2" class="navbuttons">About Me</a></li>
+                <li><a href="#sec3" class="navbuttons">Projects</a></li>
+                <li><a href="#sec4" class="navbuttons">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section id="sec1" class="sections">
+        <div id="sec1text">
+            <div>Prakhar Khandelwal</div>
+            <div>
+                <div id="line">
+                    <hr>
+                </div>Frontend
+            </div>
+            <div>I'm a Frontend developer, and I am very passionate and dedicated to my work.</div>
+        </div>
+        <div id="sec1img"></div>
+    </section>
+    <section id="sec2" class="sections">
+        <div id="sec2head">About Me</div>
+        <div id="sec2con">
+            <div id="sec2text">
+                <div id="sec2nav">
+                    <ul>
+                        <li><button onclick="selection(0)">Me</button>
+                            <div class="lines"></div>
+                        </li>
+                        <li><button onclick="selection(1)">My Education</button>
+                            <div class="lines"></div>
+                        </li>
+                        <li><button onclick="selection(2)">My Skills</button>
+                            <div class="lines"></div>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="sec2text" id="me">
+                    <div style="color:var(--lblue);font-weight: 600;">Prakhar Khandelwal</div>
+                    (Front-end Developer)<br>
+                    I am an aspiring Full Stack Developer currently focusing on Frontend.<br>
+                    I am enthusiastic about gaining hands-on experience in frontend development.<br>
+                </div>
+                <div class="sec2text" id="myeducation">
+                    Acropolis Institute of Techology and Research - <strong>BCA</strong> 1st Year
+                </div>
+                <div class="sec2text" id="myskills">
+                    HTML | CSS | ReactJS | NodeJS<br>
+                    Figma | C++ | C# | Javascript <br>
+                    Game Development | Graphic Design <br>
+                    Animation | Blender | Video Editing
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec3" class="sections">
+        <div id="sec3head">Projects</div>
+        <div id="sec3con">
+            <a href="https://my-portfolio-psi-taupe-55.vercel.app/" target="_blank">
+                <div class="card" style="background-image: url('./Images/p1.png');"></div>
+                <strong>React Portfolio</strong>
+            </a>
+            <a href="https://git-prakhar.github.io/Foodie/" target="_blank">
+                <div class="card" style="background-image: url('./Images/foodieold.png');"></div>
+                <strong>Foodie With HTML CSS JS</strong>
+            </a>
+            <a href="https://react-foodie-nine.vercel.app/" target="_blank">
+                <div class="card" style="background-image: url('./Images/foodie.png');"></div>
+                <strong>Foodie With ReactJS</strong>
+            </a>
+        </div>
+    </section>
+    <section id="sec4" class="sections">
+        <div id="sec4head">Contact Me</div>
+        <div id="sec4con">
+            <form action="#">
+                <input type="text" name="name" class="inpbox" placeholder="Type your name" required>
+                <input type="email" name="mail" class="inpbox" placeholder="Type your Email" required>
+                <textarea name="text" placeholder="Message" required></textarea>
+                <input type="submit" value="Send Message" id="send">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>Made using HTML | CSS | JS</div>
+        <div id="buttons">
+            <a href="https://github.com/Git-Prakhar" target="_blank">
+                <div id="b1"></div>
+            </a>
+            <a href="https://twitter.com/____Prakhar__" target="_blank">
+                <div id="b2"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/prakhar-khandelwal-8a988528b/" target="_blank">
+                <div id="b3"></div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
